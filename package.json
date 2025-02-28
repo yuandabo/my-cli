@@ -23,5 +23,11 @@
   },
   "bin": {
     "my-cli": "./bin/main.js"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "eslint": "^9.21.0",
+    "execa": "^5.1.1",
+    "globals": "^16.0.0"
   }
 }
