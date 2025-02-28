@@ -1,0 +1,27 @@
+{
+  "name": "my-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^13.1.0",
+    "download-git-repo": "^3.0.2",
+    "fs-extra": "^11.3.0",
+    "handlebars": "^4.7.8",
+    "inquirer": "^8.0.0",
+    "ora": "^8.2.0",
+    "shelljs": "^0.8.5",
+    "simple-git": "^3.27.0"
+  },
+  "bin": {
+    "my-cli": "./bin/main.js"
+  }
+}
