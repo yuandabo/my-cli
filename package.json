@@ -1,10 +1,11 @@
 {
-  "name": "my-cli",
+  "name": "ydb-cli",
   "version": "1.0.0",
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "npm publish"
   },
   "keywords": [],
   "author": "",
@@ -22,7 +23,7 @@
     "simple-git": "^3.27.0"
   },
   "bin": {
-    "my-cli": "./bin/main.js"
+    "ydb-cli": "./bin/main.js"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.7.1",
